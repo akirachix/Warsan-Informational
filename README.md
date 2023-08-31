@@ -7,10 +7,10 @@ This project has been created using React, and it showcases information about th
 Follow these steps to install and interact with Rajo informational website:
 
 #Clone into the repository
-git clone repository
+git clone https://github.com/akirachix/Warsan-Informational.git
 
 #Navigate into the project repository
-cd repo
+cd Warsan-Informational
 
 
 #Install dependencies
