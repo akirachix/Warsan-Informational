@@ -20,4 +20,7 @@ npm install
 
 # Start development server
 npm start 
-this will lauch the website i your default browser.
+this will lauch the website in your default browser.
+
+Open http://localhost:3000/ to view it in your browser.
+
