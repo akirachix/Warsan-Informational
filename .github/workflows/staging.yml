@@ -2,12 +2,12 @@ name: React.js CI/CD
 
 # Controls when the workflow will run
 on:
-  # Triggers the workflow on push events to the "dev" branch
+  # Triggers the workflow on push events to the "staging" branch
   push:
     branches:
       - staging
 
-   pull_request:
+  pull_request:
     branches:
       - staging    
 
