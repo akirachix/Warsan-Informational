@@ -5,11 +5,11 @@ on:
   # Triggers the workflow on push events to the "staging" branch
   push:
     branches:
-      - staging
+      -staging
 
   pull_request:
     branches:
-      - staging    
+      -staging    
 
  
   # Allows you to run this workflow manually from the Actions tab
