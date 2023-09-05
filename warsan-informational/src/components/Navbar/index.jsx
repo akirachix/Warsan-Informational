@@ -1,5 +1,4 @@
 import React, { useState } from 'react';
-
 import './style.css';
 
 function Navbar() {
@@ -14,13 +13,21 @@ function Navbar() {
       <div className={`navbar-wrapper ${isNavOpen ? 'nav-open' : ''}`}>
         <span className="brand-container">
           <a className="logo-link" href="#logo">
-            <img src={process.env.PUBLIC_URL + '/images/logo.png'} alt="Logo" className="logo-img" />
+            <img
+              src={process.env.PUBLIC_URL + '/images/logo.png'}
+              alt="Logo"
+              className="logo-img"
+            />
           </a>
           <a className="brand-name" href="#logoBrand">
             RAJO
           </a>
         </span>
-        <div data-testid="hamburger-menu"className={`hamburger-menu ${isNavOpen ? 'open' : ''} `} onClick={toggleNav}>
+        <div
+          data-testid="hamburger-menu"
+          className={`hamburger-menu ${isNavOpen ? 'open' : ''}`}
+          onClick={toggleNav}
+        >
           {isNavOpen ? (
             <div className="close-icon">
               <span></span>
@@ -34,13 +41,14 @@ function Navbar() {
             </>
           )}
         </div>
-        <ul  data-testid="nav-list" className={`nav-list ${isNavOpen ? 'open' : ''}`} >
+        <ul data-testid="nav-list" className={`nav-list ${isNavOpen ? 'open' : ''}`}>
           <div className="centered-links">
             <li><a href="#Home">Home</a></li>
             <li><a href="#About">About</a></li>
             <li><a href="#How It Works">How It Works</a></li>
             <li><a href="#Team">Team</a></li>
-            <li><a href="#Contact Us">Contact Us</a></li>
+            <li><a href="#Contact Us">Contact Us</a>
+            </li>
           </div>
         </ul>
       </div>
