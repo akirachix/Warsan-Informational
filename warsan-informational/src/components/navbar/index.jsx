@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+
 import './style.css';
 
 function Navbar() {
@@ -12,10 +13,10 @@ function Navbar() {
     <nav>
       <div className={`navbar-wrapper ${isNavOpen ? 'nav-open' : ''}`}>
         <span className="brand-container">
-          <a className="logo-link" href="#">
+          <a className="logo-link" href="#logo">
             <img src={process.env.PUBLIC_URL + '/images/logo.png'} alt="Logo" className="logo-img" />
           </a>
-          <a className="brand-name" href="#">
+          <a className="brand-name" href="#logoBrand">
             RAJO
           </a>
         </span>
@@ -35,10 +36,11 @@ function Navbar() {
         </div>
         <ul className={`nav-list ${isNavOpen ? 'open' : ''}`}>
           <div className="centered-links">
-            <li><a href="#">Home</a></li>
-            <li><a href="#">About</a></li>
-            <li><a href="#">How It Works</a></li>
-            <li><a href="#">Contact Us</a></li>
+            <li><a href="#Home">Home</a></li>
+            <li><a href="#About">About</a></li>
+            <li><a href="#How It Works">How It Works</a></li>
+            <li><a href="#Team">Team</a></li>
+            <li><a href="#Contact Us">Contact Us</a></li>
           </div>
         </ul>
       </div>
