@@ -5,7 +5,6 @@ import Footer from '.';
 describe('Footer Component', () => {
   it('should render without errors', () => {
     render(<Footer />);
-    const contactHeader = screen.getByText('CONTACT US');
     const phoneNumberHeader = screen.getByText('Phone Number');
     const emailHeader = screen.getByText('Email');
     const addressHeader = screen.getByText('Our Address');
