@@ -20,7 +20,7 @@ function Navbar() {
             RAJO
           </a>
         </span>
-        <div className={`hamburger-menu ${isNavOpen ? 'open' : ''} `} onClick={toggleNav}>
+        <div data-testid="hamburger-menu"className={`hamburger-menu ${isNavOpen ? 'open' : ''} `} onClick={toggleNav}>
           {isNavOpen ? (
             <div className="close-icon">
               <span></span>
@@ -34,7 +34,7 @@ function Navbar() {
             </>
           )}
         </div>
-        <ul className={`nav-list ${isNavOpen ? 'open' : ''}`} >
+        <ul  data-testid="nav-list" className={`nav-list ${isNavOpen ? 'open' : ''}`} >
           <div className="centered-links">
             <li><a href="#Home">Home</a></li>
             <li><a href="#About">About</a></li>

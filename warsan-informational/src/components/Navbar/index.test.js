@@ -11,7 +11,7 @@ describe('Navbar Component', () => {
     const aboutLink = screen.getByText('About');
     const howItWorksLink = screen.getByText('How It Works');
     const contactLink = screen.getByText('Contact Us');
-    const hamburgerMenu = screen.getByLabelText('Hamburger Menu'); // Use getByLabelText
+    const hamburgerMenu = screen.getByTestId('hamburger-menu');
 
     expect(logo).toBeInTheDocument();
     expect(brandName).toBeInTheDocument();
@@ -24,8 +24,8 @@ describe('Navbar Component', () => {
 
   it('should toggle the navigation menu when the hamburger menu is clicked', () => {
     render(<Navbar />);
-    const hamburgerMenu = screen.getByLabelText('Hamburger Menu'); // Use getByLabelText
-    const navList = screen.getByRole('list', { name: 'Nav List' });
+    const hamburgerMenu = screen.getByTestId('hamburger-menu'); 
+    const navList = screen.getByTestId('nav-list');
 
     fireEvent.click(hamburgerMenu);
     expect(navList).toHaveClass('open');
