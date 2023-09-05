@@ -35,10 +35,10 @@ function Navbar() {
         </div>
         <ul className={`nav-list ${isNavOpen ? 'open' : ''}`}>
           <div className="centered-links">
-            <li><a href="/">Home</a></li>
-            <li><a href="/">About</a></li>
-            <li><a href="/">How It Works</a></li>
-            <li><a href="/">Contact Us</a></li>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">How It Works</a></li>
+            <li><a href="#">Contact Us</a></li>
           </div>
         </ul>
       </div>
