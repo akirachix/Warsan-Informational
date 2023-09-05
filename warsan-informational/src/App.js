@@ -1,23 +1,13 @@
-// Layout.js
 import React from 'react';
-import Navbar from './components/navbar'; 
-import Footer from './components/footer';
+import './App.css';
+import Layout from './components/layout';
 
-const Layout = ({ children }) => {
+
+function App() {
   return (
     <div className="App" data-testid="app-component">
-      <header>
-        <Navbar /> {/* Navbar Component */}
-      </header>
-      <main>
-        {/* Content inserted between Navbar and Footer */}
-        {children}
-      </main>
-      <footer>
-        <Footer /> {/* Footer Component */}
-      </footer>
+      <Layout/>
     </div>
   );
-};
-
-export default Layout;
+}
+export default App;

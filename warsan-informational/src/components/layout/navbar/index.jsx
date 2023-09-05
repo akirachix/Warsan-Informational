@@ -34,7 +34,7 @@ function Navbar() {
             </>
           )}
         </div>
-        <ul className={`nav-list ${isNavOpen ? 'open' : ''}`}>
+        <ul className={`nav-list ${isNavOpen ? 'open' : ''}`} >
           <div className="centered-links">
             <li><a href="#Home">Home</a></li>
             <li><a href="#About">About</a></li>
