@@ -1,0 +1,238 @@
+ul, li {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .navbar-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: black;
+    margin-left: 4%;
+    margin-right: 8.3%;
+    margin-top: 1%;
+  }
+  
+  .brand-container {
+    display: flex;
+    align-items: center;
+    font-size: 30px;
+  }
+  
+  .brand-name {
+    color: #5EB5D7;
+    font-weight: bold;
+    font-size: 36px;
+    text-decoration: none;
+  }
+  
+  .logo-img {
+    width: 75px;
+    height: 70px;
+    fill: #5EB5D7;
+    margin-top: 10%;
+  }
+  
+  
+
+  /* Hamburger */
+  .hamburger-menu {
+    display: none;
+    cursor: pointer;
+  }
+  .hamburger-menu.open .bar {
+    background-color: white;
+  }
+  .hamburger-menu.open .close-icon {
+    display: block;
+  }
+  .bar {
+    width: 30px;
+    height: 4px;
+    background-color: #5EB5D7;
+    margin: 6px 0;
+    transition: 0.4s;
+  }
+  .close-icon {
+    display: none;
+    position: relative;
+    width: 30px;
+    height: 4px;
+    margin: 6px 0;
+    transition: 0.4s;
+    font-weight: bolder;
+    cursor: pointer;
+  }
+  .close-icon span {
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    background-color: #5EB5D7;
+    transition: transform 0.2s ease;
+  }
+  .close-icon span:first-child {
+    top: 0;
+    transform: rotate(45deg);
+  }
+  .close-icon span:last-child {
+    top: 0;
+    transform: rotate(-45deg);
+  }
+  .nav-list {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+  }
+  .centered-links {
+    display: flex;
+    justify-content: center;
+    gap: 200px;
+  }
+  .centered-links a {
+    color: black;
+    padding: 20px;
+    text-decoration: none;
+    transition: background-color 0.3s, color 0.3s;
+  }
+  .centered-links a:hover {
+    background-color: #5EB5D7;
+    color: white;
+    border-radius: 5px;
+    padding: 10px 20px;
+  }
+  .open .nav-list {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 150px;
+  }
+  @media (max-width: 760px) {
+    .hamburger-menu {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: flex-end;
+      cursor: pointer;
+      position: absolute;
+      right: 20px;
+      top: 20px;
+      width: 30px;
+      height: 30px;
+    }
+    .navbar-wrapper {
+      flex-direction: column;
+      align-items: flex-start;
+      position: relative;
+    }
+    .brand-container {
+      margin: 10px 0;
+    }
+    .nav-list {
+      display: none;
+      flex-direction: column;
+      align-items: center;
+      width: 100%;
+      position: absolute;
+      top: 100%;
+      left: 0;
+      background-color: #fff;
+      transition: 0.4s;
+      z-index: 1;
+    }
+    .nav-open .nav-list {
+      display: flex;
+    }
+    .centered-links {
+      flex-direction: column;
+      gap: 15px;
+      padding: 12px;
+      align-items: center;
+    }
+    .centered-links a {
+      margin: 10px 0;
+    }
+    .nav-open .hamburger-menu .bar {
+      background-color: #5EB5D7;
+    }
+    .nav-open .hamburger-menu .close-icon {
+      display: none;
+    }
+    .brand-container {
+      font-size: 24px;
+    }
+    .brand-name {
+      font-size: 30px;
+    }
+    .logo-img {
+      width: 50px;
+      height: 50px;
+    }
+    .bar {
+      width: 20px;
+      height: 3px;
+      margin: 4px 0;
+    }
+    .close-icon {
+      width: 20px;
+      height: 3px;
+      margin: 4px 0;
+    }
+    .close-icon span {
+      height: 2px;
+    }
+  }
+  @media (min-width: 761px) {
+    .hamburger-menu {
+      display: none;
+    }
+    .navbar-wrapper {
+      flex-direction: row;
+    }
+    .brand-container {
+      margin: 0;
+    }
+    .nav-list {
+      display: flex;
+      align-items: center;
+      position: static;
+      background-color: transparent;
+      transition: none;
+    }
+    .centered-links {
+      flex-direction: row;
+      gap: 100px;
+      padding: 0;
+      align-items: center;
+    }
+    .centered-links a {
+      margin: 0;
+    }
+    .nav-open .hamburger-menu .bar {
+      background-color: #5EB5D7;
+    }
+    .nav-open .hamburger-menu .close-icon {
+      display: none;
+    }
+  }
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
