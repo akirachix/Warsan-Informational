@@ -9,11 +9,11 @@
   grid-template-columns: repeat(3, 1fr);
   margin-top: 1%;
   margin-bottom: 1%;
-  margin-left: 1.2%;
+  margin-left: 5.8%;
+  margin-right: %;
 }
 
 .footercard {
-  margin-left: 16.8%;
   width: 63%;
   background-color: #5EB5D7;
   color: white;
