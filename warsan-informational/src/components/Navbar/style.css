@@ -9,7 +9,7 @@ ul, li {
   justify-content: space-between;
   align-items: center;
   color: black;
-  margin-left: 4%;
+  margin-left: 3%;
   margin-right: 8.3%;
   margin-top: 1%;
 }
@@ -122,14 +122,14 @@ ul, li {
   color: black;
   padding: 10px;
   text-decoration: none;
-  transition: background-color 0.3s, color 0.3s;
+  transition: background-color 1s, color 1s;
 }
 
 .nav-list a:hover {
   background-color: #5EB5D7;
   color: white;
   border-radius: 5px;
-  padding: 10px 20px;
+  padding: 4px 20px;
 }
 
 @media (max-width: 760px) {
@@ -150,6 +150,8 @@ ul, li {
     flex-direction: column;
     align-items: flex-start;
     position: relative;
+    margin-left: 5.5%;
+    margin-right: 3%;
   }
 
   .brand-container {
@@ -231,8 +233,15 @@ ul, li {
 /* Media Queries for iPad Air */
 @media (max-width: 834px) {
   .centered-links {
+    font-size: 16px;
+    margin-top: 2%;
 
   }
+  .navbar-wrapper {
+    margin-left: 5.5%;
+    margin-right: 4%;
+  }
+
 }
 
 /* Media Queries for iPad Mini */

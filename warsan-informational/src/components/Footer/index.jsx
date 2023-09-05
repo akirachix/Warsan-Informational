@@ -3,14 +3,13 @@ import './style.css'
 
 const Footer = () => {
   return (
-    <div>
-      <h1>CONTACT US</h1>
+    <div className="footer-container">
       <div className="footer">
         <div className="footercard">
           <h3>Phone Number</h3>
           <p>
-            +254 6753578 <br />
-            +254 2356781
+            +254 767535782 <br />
+            +254 723567813
           </p>
         </div>
 
