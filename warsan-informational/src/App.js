@@ -5,7 +5,7 @@ import Footer from './components/footer';
 
 const Layout = ({ children }) => {
   return (
-    <div>
+    <div className="App" data-testid="app-component">
       <header>
         <Navbar /> {/* Navbar Component */}
       </header>
