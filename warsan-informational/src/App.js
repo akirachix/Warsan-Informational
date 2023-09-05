@@ -1,6 +1,6 @@
 import React from 'react';
 import './App.css';
-import Layout from './components/layout';
+import Layout from './components/Layout';
 
 
 function App() {
@@ -8,7 +8,7 @@ function App() {
     <div className="App" data-testid="app-component">
       <Layout>
 
-        
+
       </Layout>
     </div>
   );
