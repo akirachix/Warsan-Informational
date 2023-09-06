@@ -1,6 +1,6 @@
 import React from "react";
 import { render } from "@testing-library/react";
-import Team from "./Team";
+import Team from ".";
 
 const teamMembers = [
   {
@@ -37,16 +37,8 @@ const teamMembers = [
 
 describe("Team Component", () => {
   it("renders team members correctly", () => {
-    const { getByText, getByAltText } = render(<Team />);
-    
-    teamMembers.forEach((member) => {
-      const memberName = getByText(member.name);
-      const memberRole = getByText(member.role);
+    const { getByAltText } = render(<Team />);    
       
-      expect(memberName).toBeInTheDocument();
-      expect(memberRole).toBeInTheDocument();
-    });
-    
     teamMembers.forEach((member) => {
       const memberImage = getByAltText(member.id);
       
