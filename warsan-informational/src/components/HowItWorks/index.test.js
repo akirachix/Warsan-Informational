@@ -23,8 +23,8 @@ describe('How It Works Component', () => {
     render(<Product />);
     
     // Test whether specific image sources have alt text
-    const bookImage = screen.getByAltText('Book Image');
-    const rajoImage = screen.getByAltText('Rajo Image');
+    const bookImage = screen.getByAltText('Book Cover');
+    const rajoImage = screen.getByAltText('Rajo Device');
     
     // Test whether each image's source is present
     expect(bookImage).toHaveAttribute('src', '/images/book.png');

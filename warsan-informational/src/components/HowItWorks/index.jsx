@@ -11,14 +11,14 @@ const Product = () => {
         <div className="product">
     <div className="product-container">
       <div>
-        <img className="product-image" src={process.env.PUBLIC_URL + '/images/book.png'} alt="Book Image" width={300}/>
+        <img className="product-image" src={process.env.PUBLIC_URL + '/images/book.png'} alt="Book Cover" width={300}/>
       </div>
       <div>
       {/* <FaLongArrowAltRight size={100} className="long-arrow"/>  */}
         <AiOutlineArrowRight size={10} className="long-arrow" data-testid="arrow-icon" />
       </div>
       <div>
-        <img className="product-image1" src={process.env.PUBLIC_URL + '/images/rajo1.png'} alt="Rajo Image" width={1000}/>
+        <img className="product-image1" src={process.env.PUBLIC_URL + '/images/rajo1.png'} alt="Rajo Device" width={1000}/>
       </div>
     </div>
     <div className="product-text" data-testid= "rajo-text">
