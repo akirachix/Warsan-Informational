@@ -4,7 +4,6 @@
     grid-template-columns: repeat(2, 1fr);
     gap: 5%;
   }
-  
   .aboutcards {
     margin-top: 8%;
     margin-bottom: 8%;
@@ -14,43 +13,54 @@
     text-align: center;
     margin-left: 17%;
     padding: 20px;
-    border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-    box-sizing: border-box;
   }
-  
+
+  .about-heading{
+    color: #1082EB;
+  }
   .about p {
-    text-align: left;
-    margin-left: 21%;
+    text-align: center;
+    /* margin-left: 21%; */
     margin-bottom: 5%;
-    font-size: 18px;
-    line-height: 1.5;
+    font-size: 20px;
   }
-  
   .about h1 {
     font-size: 28px;
     margin-top: 10px;
   }
-  
+  .aboutcards {
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  }
+  .about p {
+    line-height: 1.5;
+  }
+  .aboutcards {
+    margin-top: 8%;
+    margin-bottom: 8%;
+    margin-left: 8%;
+    width: 65%;
+    background-color: white;
+    text-align: center;
+    margin-left: 17%;
+    padding: 20px;
+    box-sizing: border-box;
+  }
   @media (max-width: 1350px) {
     .about {
       grid-template-columns: 1fr;
       gap: 10px;
     }
-  
     .aboutcards {
       margin-left: 5%;
       width: 90%;
       text-align: center;
     }
-  
     .about p {
       margin-left: 5%;
-      text-align: center;
-      font-size: 16px; /* Change the font size for small screens */
+      text-align: left;
     }
   }
-  
   @media (max-width: 1540px) {
     .aboutcards {
       margin-left: 5%;
@@ -58,4 +68,16 @@
       text-align: center;
     }
   }
-  
+
+  @media(width: 1280px){
+    .about{
+        display: flex;
+        flex-direction: row;
+
+    }
+    .aboutcards{
+        width: 500px;
+        margin-right: 50px;       
+    }
+  }
+
