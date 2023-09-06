@@ -18,9 +18,10 @@
     font-weight: bold;
     font-size: 7rem;
     color: #FFFFFF;
+    margin-top: -15%;
   }
   .learn-more-button {
-    width: 241.25px; 
+    width: 231.25px; 
     height: 65px; 
     background-color: #1175D2;
     color: #fff;
@@ -28,7 +29,7 @@
     border-radius: 5px;
     justify-content: center;
     align-items: center;
-    margin-top: 525px;
+    margin-top: 480px;
     cursor: pointer;
   }
   .learn-more-text {
@@ -41,17 +42,48 @@
       background-size: cover; 
     }
     .slideshow-text {
-      font-size: 3rem; 
+      font-size: 1.5rem; 
       margin-top: -15%;
     }
     .learn-more-button {
       width: 120px; 
-      height: 40px;
-      margin-top: 280px; 
+      height: 30px;
+      margin-top: 260px; 
       padding: 2px 1px; 
     }
     .learn-more-text {
-        font-size: 1rem;
+        font-size: 0.9rem;
       }
+      }  @media (min-width: 769px) and (max-width: 1290px) {
+      
+        .slideshow-text {
+          font-size: 1rem; 
+          margin-top: -15%;
+        }
+        text{
+          font-size: 1rem; 
+
+        }
+      
   }
 
+
+  @media (min-width: 769px) and (max-width: 1290px) {
+    .home-section {
+      height: 600px;
+    }
+    .slideshow-text {
+      font-size: 3rem;
+      margin-top: -10%;
+    }
+    .learn-more-button {
+      width: 180px;
+      height: 50px;
+      margin-top: 310px;
+      font-size: 1.2rem;
+    }
+    .learn-more-text {
+      font-size: 1.3rem;
+    }
+  }
+  

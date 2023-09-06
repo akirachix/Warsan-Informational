@@ -1,12 +1,13 @@
 import React, { useState, useEffect } from "react";
 import './style.css';
+
 const HomePage = () => {
   const [textIndex, setTextIndex] = useState(0);
   const textOptions = ["Save a child", "Save a nation"];
   useEffect(() => {
     const intervalId = setInterval(() => {
       setTextIndex((prevIndex) => (prevIndex === 0 ? 1 : 0));
-    }, 1500);
+    }, 2500);
     return () => {
       clearInterval(intervalId);
     };
