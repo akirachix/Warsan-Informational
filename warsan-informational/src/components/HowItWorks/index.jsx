@@ -1,6 +1,6 @@
 import React from "react";
 import { AiOutlineArrowRight } from 'react-icons/ai';
-import { FaLongArrowAltRight } from 'react-icons/fa';
+// import { FaLongArrowAltRight } from 'react-icons/fa';
 
 
 import './style.css'
