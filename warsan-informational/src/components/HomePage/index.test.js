@@ -15,7 +15,7 @@ describe('HomePage Component', () => {
     await screen.findByText('Save a child');
 
     // Check that the initial text is displayed
-    expect(slideshowText.textContent).toBe('Save a child');
+    expect(slideshowText.textContent).toBe('Save a nation');
 
     // Trigger the interval again
     act(() => {
@@ -23,7 +23,7 @@ describe('HomePage Component', () => {
     });
 
     // Check that the text has switched to the second option
-    expect(slideshowText.textContent).toBe('Save a nation');
+    expect(slideshowText.textContent).toBe('Save a child');
 
     // Check that the Learn More button is rendered
     expect(learnMoreButton).toBeInTheDocument();
