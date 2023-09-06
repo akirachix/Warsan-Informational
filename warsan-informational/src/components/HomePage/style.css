@@ -16,19 +16,19 @@
   }
   .slideshow-text {
     font-weight: bold;
-    font-size: 7rem; /* Adjust the font size as needed */
+    font-size: 7rem;
     color: #FFFFFF;
   }
   .learn-more-button {
-    width: 241.25px; /* Convert 24.125rem to pixels */
-    height: 65px; /* Convert 6.5rem to pixels */
+    width: 241.25px; 
+    height: 65px; 
     background-color: #1175D2;
     color: #fff;
     border: none;
     border-radius: 5px;
     justify-content: center;
     align-items: center;
-    margin-top: 525px; /* Add spacing between button and slideshow */
+    margin-top: 525px;
     cursor: pointer;
   }
   .learn-more-text {
@@ -37,18 +37,18 @@
   /* ================================================================ */
   @media (max-width: 768px) {
     .home-section {
-      height: 500px; /* Adjust the height as needed */
-      background-size: cover; /* or '100% auto', depending on your preference */
+      height: 500px; 
+      background-size: cover; 
     }
     .slideshow-text {
-      font-size: 3rem; /* Adjust the font size for smaller screens */
+      font-size: 3rem; 
       margin-top: -15%;
     }
     .learn-more-button {
-      width: 120px; /* Adjust the width as desired */
-      height: 40px; /* Adjust the height as desired */
-      margin-top: 280px; /* Adjust the negative margin as desired */
-      padding: 2px 1px; /* Adjust the padding as desired */
+      width: 120px; 
+      height: 40px;
+      margin-top: 280px; 
+      padding: 2px 1px; 
     }
     .learn-more-text {
         font-size: 1rem;
