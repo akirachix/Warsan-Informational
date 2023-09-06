@@ -23,7 +23,6 @@ ul, li {
 .brand-name {
   color: #1082EB;
   text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-
   font-weight: bold;
   font-size: 36px;
   text-decoration: none;
@@ -36,7 +35,6 @@ ul, li {
   margin-top: 10%;
 }
 
-/* Hamburger */
 .hamburger-menu {
   display: none;
   cursor: pointer;
@@ -55,7 +53,6 @@ ul, li {
   height: 4px;
   background-color: #5EB5D7;
   margin: 6px 0;
-  transition: 0.4s;
 }
 
 .close-icon {
@@ -64,7 +61,6 @@ ul, li {
   width: 30px;
   height: 4px;
   margin: 6px 0;
-  transition: 0.4s;
   font-weight: bolder;
   cursor: pointer;
 }
@@ -74,7 +70,6 @@ ul, li {
   width: 100%;
   height: 2px;
   background-color: #5EB5D7;
-  transition: transform 0.2s ease;
 }
 
 .close-icon span:first-child {
@@ -86,24 +81,19 @@ ul, li {
   top: 0;
   transform: rotate(-45deg);
 }
+
 .centered-links {
   display: flex;
   justify-content: center;
   gap: 20px;
   font-size: 20px;
 }
+
 .centered-links a {
   color: black;
-  padding: 20px;
   text-decoration: none;
-  transition: background-color 0.3s, color 0.3s;
 }
-.centered-links a:hover {
-  background-color: #5EB5D7;
-  color: white;
-  border-radius: 5px;
-  padding: 10px 20px;
-}
+
 .nav-list {
   display: flex;
   flex-direction: column;
@@ -122,17 +112,34 @@ ul, li {
 
 .nav-list a {
   color: black;
-  padding: 10px;
   text-decoration: none;
-  transition: background-color 1s, color 1s;
 }
 
-.nav-list a:hover {
+.nav-list li:hover {
+  color: blue;
+}
+
+.nav-list li:hover {
+  color: blue;
+}
+.nav-list li {
+  margin-bottom: 10px;
+  transition: color 0.3s;
+}
+
+.nav-list li:hover {
+  color: blue;
+}
+
+.centered-links a:hover {
   background-color: #5EB5D7;
   color: white;
-  border-radius: 5px;
+  border-radius: 10px;
   padding: 4px 20px;
+  transition: background-color 0.3s, color 0.3s, padding 0.3s;
 }
+
+
 
 @media (max-width: 760px) {
   .hamburger-menu {
@@ -169,24 +176,21 @@ ul, li {
     top: 100%;
     left: 0;
     background-color: #fff;
-    transition: 0.4s;
     z-index: 1;
   }
 
   .nav-list.open {
     display: flex;
-
     text-align: left;
-
   }
+
   .centered-links {
-    display:block;
+    display: block;
     justify-content: center;
     gap: 200px;
     background-color: rgba(255, 255, 255, 0.9);
     width: 1000px;
     height: 1000px;
-
   }
 
   .nav-list li {
@@ -195,11 +199,6 @@ ul, li {
 
   .nav-list a {
     margin: 0;
-    padding: 10px;
-  }
-
-  .nav-list a:hover {
-    padding: 10px;
   }
 
   .brand-container {
@@ -237,25 +236,9 @@ ul, li {
   .centered-links {
     font-size: 16px;
     margin-top: 2%;
-
   }
   .navbar-wrapper {
-    margin-left: 10%;
-    margin-right: 6%;
-  }
-
-}
-
-/* Media Queries for iPad Mini */
-@media (max-width: 768px) {
-  .centered-links {
-
-  }
-}
-
-/* Media Queries for Next Hub */
-@media (max-width: 1280px) {
-  .centered-links {
-
+    margin-left: 10.5%;
+    margin-right: 11%;
   }
 }
