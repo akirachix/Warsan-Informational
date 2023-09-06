@@ -7,7 +7,7 @@ import './style.css'
 const Product = () => {
   return (
     <div className="">
-        <h1 className="product-h1">How It Works</h1>
+        <h1 className="product-h1">Product</h1>
         <div className="product">
     <div className="product-container">
       <div>
@@ -18,11 +18,12 @@ const Product = () => {
         <AiOutlineArrowRight size={10} className="long-arrow" data-testid="arrow-icon" />
       </div>
       <div>
-        <img className="product-image1" src={process.env.PUBLIC_URL + '/images/rajo1.png'} alt="Rajo Device" width={1000}/>
+        <img className="product-image1" src={process.env.PUBLIC_URL + '/images/rajo1.png'} alt="Rajo Device" width={900}/>
       </div>
     </div>
     <div className="product-text" data-testid= "rajo-text">
-        <p>Rajo simplifies the recording of immunization data, enabling healthcare workers to efficiently capture crucial information <br/>while providing NGOs with in-depth, analyzed insights into immunization coverage.
+        <p className="text">Rajo simplifies the recording of immunization data, enabling healthcare workers to efficiently capture crucial information 
+          while providing NGOs with in-depth, analyzed insights into immunization coverage.
 </p>
     </div>
     </div>

@@ -3,102 +3,86 @@
   flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
-  padding:  20px;
+  padding: 0 20px;
 }
+.product-h1{
+  color: #1082EB;
+  text-align: center;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);  
 
+}
 .product-container > div {
   flex: 1;
   text-align: center;
   margin-bottom: 20px;
 }
 
-.long-arrow {
-  transform: scale(15) rotate(0deg); 
-  color:  #5EB5D7;
-}
 
+.long-arrow {
+  transform: scale(20) rotate(0deg); 
+  color:  #5EB5D7;
+  margin-left: -30%;
+}
 .product-image {
   max-width: 100%;
   height: auto;
   padding-top: 60px;
 }
-
 .product-image1 {
   max-width: 100%;
   height: auto;
-  margin-left: -22%;
+  margin-left: -27%;
 }
-
 .product-h1 {
   margin: 2% auto;
 }
-
 .product {
   background-color: #E9DADA;
 }
-
 .product-text {
   font-size: 1.5rem;
+  padding-bottom: 1%;
 }
 
-@media (max-width: 1112px) and (min-width: 760px) {
-  .product-container {
-    flex-direction: column;
-    align-items: center;
-    padding: 15px 10px;
-  }
-  .product-container > div {
-    flex: none;
-    width: 100%;
-  }
-  .long-arrow {
-    transform: scale(5) rotate(90deg);
-  }
-  .product-text {
-    font-size: 1.2rem;
-  }
-  .product-image {
-    max-width: 40%;
-    height: 40%;
-  }
+.text{
+  margin-left: 4%;
+  margin-right: 4%;
+  align-items: end;
+
 }
 
 @media (max-width: 759px) {
   .product-container {
     flex-direction: column;
     align-items: center;
-    padding: 10px;
   }
   .product-container > div {
     flex: none;
     width: 100%;
   }
   .long-arrow {
-    transform: scale(5) rotate(90deg);
+    transform: scale(5) rotate(90deg); /* Update the transform property */
+    margin-left: -0%;
+
   }
   .product-image {
-    max-width: 80%;
+    width: 30%;
     height: auto;
     padding-top: 20px;
     margin-bottom: 20px;
   }
   .product-image1 {
-    max-width: 100%;
     height: auto;
+    margin-left: 3%;
+    width: 50%;
   }
   .product-text {
-    font-size: 1rem;
-  }
-}
+    font-size: small;
 
-@media (max-width: 500px) {
-  .product-container {
-    padding: 5px;
   }
-  .product-image {
-    padding-top: 10px;
-  }
-  .product-text {
-    font-size: 0.8rem;
+  .text{
+    margin-left: 4%;
+    margin-right: 4%;
+    align-items: end;
   }
 }
