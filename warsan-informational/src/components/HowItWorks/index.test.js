@@ -2,6 +2,7 @@ import React from 'react';
 import { render, screen } from '@testing-library/react';
 import Product from './index.jsx';
 
+
 describe('How It Works Component', () => {
   it('should render without errors', () => {
     render(<Product />);
@@ -14,7 +15,7 @@ describe('How It Works Component', () => {
     const productText = screen.getByTestId('rajo-text');
     expect(productText).toBeInTheDocument();
 
-    // Tests for specific images
+    //Texts the number of images available
     const productImages = screen.getAllByRole('img');
     expect(productImages).toHaveLength(2);
   });
@@ -33,11 +34,10 @@ describe('How It Works Component', () => {
 
   it('should have an arrow icon', () => {
     render(<Product />);
-    
     // Test whether the Arrow icon is present
     const arrowIcon = screen.getByTestId('arrow-icon');
     expect(arrowIcon).toBeInTheDocument();
-  });
-  
+    });
+    
  
 });
