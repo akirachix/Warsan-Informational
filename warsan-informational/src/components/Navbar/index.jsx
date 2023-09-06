@@ -45,7 +45,7 @@ function Navbar() {
           <div className="centered-links">
             <li><a href="#Home">Home</a></li>
             <li><a href="#About">About</a></li>
-            <li><a href="#How It Works">How It Works</a></li>
+            <li><a href="#HowItWorks">How It Works</a></li>
             <li><a href="#Team">Team</a></li>
             <li><a href="#Contact Us">Contact Us</a>
             </li>
