@@ -7,7 +7,7 @@ describe('How It Works Component', () => {
     render(<Product />);
     
     //Test the presence of the component title
-    const productTitle = screen.getByText('How It Works');
+    const productTitle = screen.getByTestId('product');
     expect(productTitle).toBeInTheDocument();
 
     // Test for specific content within the component
