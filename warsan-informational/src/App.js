@@ -10,8 +10,10 @@ import HomePage from './components/Home';
 function App() {
   return (
     <div className="App" data-testid="app-component">
+      <Layout>
       <HomePage/>
       <Product/>
+      </Layout>
 
     </div>
   );
