@@ -1,12 +1,13 @@
-
-
 import React from 'react';
 import './App.css';
-import About from './components/AboutUs';
+import Navbar from './components/navbar';
+import Footer from './components/footer';
+
 function App() {
   return (
     <div className="App" data-testid="app-component">
-      <About/>
+      <Navbar/>
+      <Footer/>
     </div>
   );
 }
