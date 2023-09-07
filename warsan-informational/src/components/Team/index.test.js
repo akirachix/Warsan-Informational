@@ -37,7 +37,7 @@ const teamMembers = [
 
 describe("Team Component", () => {
   it("renders team members correctly", () => {
-    const { getByAltText } = render(<Team />);    
+    const {getByAltText } = render(<Team />);    
       
     teamMembers.forEach((member) => {
       const memberImage = getByAltText(member.id);
