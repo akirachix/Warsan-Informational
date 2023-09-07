@@ -4,6 +4,7 @@ import React from 'react';
 import './App.css';
 import Layout from './components/Layout';
 import HomePage from './components/Home';
+import About from './components/AboutUs'
 
 
 
@@ -13,6 +14,8 @@ function App() {
       <Layout>
       <HomePage/>
       <Product/>
+      <About/>
+      
       </Layout>
 
     </div>
