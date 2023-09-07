@@ -1,0 +1,92 @@
+
+.home-section {
+    background-image: url(/public/images/childone.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 806px;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.8); 
+    /* position: fixed; */
+
+
+  }
+  .text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  .slideshow-text {
+    font-weight: bold;
+    font-size: 7rem;
+    color: #FFFFFF;
+    margin-top: -15%;
+  }
+  .learn-more-button {
+    width: 231.25px; 
+    height: 65px; 
+    background-color: #1175D2;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 500px;
+    cursor: pointer;
+  }
+  .learn-more-text {
+    font-size: 1.5rem;
+  }
+  /* ================================================================ */
+  @media (max-width: 768px) {
+    .home-section {
+      height: 500px; 
+      background-size: cover; 
+    }
+    .slideshow-text {
+      font-size: 1.5rem; 
+      margin-top: -15%;
+    }
+    .learn-more-button {
+      width: 120px; 
+      height: 30px;
+      margin-top: 260px; 
+      padding: 2px 1px; 
+    }
+    .learn-more-text {
+        font-size: 0.9rem;
+      }
+      }  @media (min-width: 769px) and (max-width: 1290px) {
+      
+        .slideshow-text {
+          font-size: 1rem; 
+          margin-top: -15%;
+        }
+        text{
+          font-size: 1rem; 
+
+        }
+      
+  }
+
+
+  @media (min-width: 769px) and (max-width: 1290px) {
+    .home-section {
+      height: 600px;
+    }
+    .slideshow-text {
+      font-size: 3rem;
+      margin-top: -10%;
+    }
+    .learn-more-button {
+      width: 180px;
+      height: 50px;
+      margin-top: 310px;
+      font-size: 1.2rem;
+    }
+    .learn-more-text {
+      font-size: 1.3rem;
+    }
+  }
+  
