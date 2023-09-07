@@ -42,12 +42,15 @@
 .product-text {
   font-size: 1.5rem;
   padding-bottom: 1%;
+  
 }
 
-.text{
+.productText{
   margin-left: 4%;
   margin-right: 4%;
   align-items: end;
+  margin-top: 800px;
+  
 
 }
 
@@ -61,7 +64,7 @@
     width: 100%;
   }
   .long-arrow {
-    transform: scale(5) rotate(90deg); /* Update the transform property */
+    transform: scale(5) rotate(90deg); 
     margin-left: -0%;
 
   }
@@ -80,7 +83,7 @@
     font-size: small;
 
   }
-  .text{
+  .productText{
     margin-left: 4%;
     margin-right: 4%;
     align-items: end;
