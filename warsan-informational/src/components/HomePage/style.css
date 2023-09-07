@@ -1,3 +1,4 @@
+
 .home-section {
     background-image: url(/public/images/childone.jpg);
     background-repeat: no-repeat;
@@ -5,7 +6,9 @@
     height: 806px;
     width: 100%;
     background-color: rgba(0, 0, 0, 0.8); 
-    position: relative;
+    /* position: fixed; */
+
+
   }
   .text {
     position: absolute;
@@ -29,7 +32,7 @@
     border-radius: 5px;
     justify-content: center;
     align-items: center;
-    margin-top: 480px;
+    margin-top: 400px;
     cursor: pointer;
   }
   .learn-more-text {
