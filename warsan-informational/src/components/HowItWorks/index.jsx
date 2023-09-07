@@ -22,7 +22,7 @@ const Product = () => {
       </div>
     </div>
     <div className="product-text" data-testid= "rajo-text">
-        <p className="producText">Rajo simplifies the recording of immunization data, enabling healthcare workers to efficiently capture crucial information 
+        <p className="productText">Rajo simplifies the recording of immunization data, enabling healthcare workers to efficiently capture crucial information 
           while providing NGOs with in-depth, analyzed insights into immunization coverage.
 </p>
     </div>
