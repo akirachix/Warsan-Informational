@@ -5,6 +5,7 @@ import './App.css';
 import Layout from './components/Layout';
 import HomePage from './components/Home';
 import About from './components/AboutUs'
+import Team from './components/Team';
 
 
 
@@ -15,6 +16,7 @@ function App() {
       <HomePage/>
       <Product/>
       <About/>
+      <Team/>
       
       </Layout>
 
