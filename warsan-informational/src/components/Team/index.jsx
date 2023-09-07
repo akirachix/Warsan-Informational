@@ -5,13 +5,13 @@ const teamMembers = [
   {
     id: "Aniso",
     name: "Aniso Mohamed Kilas",
-    role: "Frontend Developer",
+    role: "Software Developer",
     imageSrc: '/images/aniso.jpg',
   },
   {
     id: "Eunice",
     name: "Eunice Musenyia",
-    role: "Full Stack Developer",
+    role: "Software Developer",
     imageSrc: '/images/eunice .jpg',
   },
   {
@@ -23,13 +23,13 @@ const teamMembers = [
   {
     id: "Clever",
     name: "Clever Kayitaramirwa",
-    role: "Full Stack Developer",
+    role: "Software Developer",
     imageSrc: '/images/clever.jpg',
   },
   {
     id: "Joy",
     name: "Joy Mitingi",
-    role: "Mobile Developer",
+    role: "Software Developer",
     imageSrc: '/images/joy.jpg',
   },
 ];
