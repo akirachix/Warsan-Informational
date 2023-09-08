@@ -43,11 +43,11 @@ function Navbar() {
         </div>
         <ul data-testid="nav-list" className={`nav-list ${isNavOpen ? 'open' : ''}`}>
           <div className="centered-links">
-            <li><a href="#Home">Home</a></li>
-            <li><a href="#About">About</a></li>
-            <li><a href="#HowItWorks">How It Works</a></li>
-            <li><a href="#Team">Team</a></li>
-            <li><a href="#Contact Us">Contact Us</a>
+            <li><a href="Home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#Product">How It Works</a></li>
+            <li><a href="#our-team-heading">Team</a></li>
+            <li><a href="#Contact-Us">Contact Us</a>
             </li>
           </div>
         </ul>

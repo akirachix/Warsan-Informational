@@ -7,7 +7,7 @@ describe('About Component', () => {
     render(<About />);
     
     // Testing the presence of the component title
-    const aboutTitle = screen.getByText('ABOUT US');
+    const aboutTitle = screen.getByText('About Us');
     expect(aboutTitle).toBeInTheDocument();
 
     // Testing presence of the "Vision" and "Mission" cards

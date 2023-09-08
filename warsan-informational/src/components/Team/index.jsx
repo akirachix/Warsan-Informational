@@ -37,7 +37,7 @@ const teamMembers = [
 const Team = () => {
   return (
     <>
-      <h1>OUR TEAM</h1><br></br>
+      <h1 className="ourteam-heading" id="our-team-heading">Our Team</h1><br></br>
       <div className="team-container">
         {teamMembers.map((member) => (
           <div className="team-member" key={member.id} data-testid={member.id}>
