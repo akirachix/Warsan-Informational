@@ -4,7 +4,7 @@ import './style.css'
 const Footer = () => {
   return (
     <div className="footer-container">
-      <div className="footer">
+      <div className="footer" id="Contact-Us">
         <div className="footercard">
           <h3>Phone Number</h3>
           <p>

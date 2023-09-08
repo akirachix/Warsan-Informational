@@ -3,8 +3,8 @@ import './style.css'
 const About = () =>{
     return (
         <div>
-            <h1 className="about-heading">ABOUT US</h1>
-        <div className="about" >
+            <h1 className="about-heading" id="about">About Us</h1>
+        <div className="about"  >
             <div className="aboutcards" data-testid="about-card1"> 
             <h1 className="h1text">Vision</h1>
             <p>

@@ -1,4 +1,4 @@
-import Product from './components/HowItWorks';
+import Product from './components/Product';
 
 import React from 'react';
 import './App.css';
@@ -17,7 +17,6 @@ function App() {
       <Product/>
       <About/>
       <Team/>
-      
       </Layout>
 
     </div>

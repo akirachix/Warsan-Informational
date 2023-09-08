@@ -16,7 +16,7 @@ const HomePage = () => {
   }, []);
 
   return (
-    <div className="home-section" data-testid="home-section">
+    <div className="home-section" data-testid="home-section" id="Home">
       <div className="text">
         <h1 className="slideshow-text" data-testid="slideshow-text">
           {textOptions[textIndex]}
